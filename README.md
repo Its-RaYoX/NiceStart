@@ -62,3 +62,8 @@ El 2º menú nos da a elegir 3 opciones.
 Esta pantalla muestra la foto de perfil de manera circular, nombre, descripción y correo.
 
 
+### Cambios realizados por Alonso
+- He creado una imagen de icono para la app, de una foto de un volante
+- Activity .profile estaba duplicado en Android Manifest, lo he borrado y sigue funcionando igual
+- Tengo ideado arreglar el land para profile
+
