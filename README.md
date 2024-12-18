@@ -58,7 +58,18 @@ El 2º menú nos da a elegir 3 opciones.
 
 ### Pantalla Profile
 ![Profile](imagenes/profile.png "Menu del Perfil")
-
 Esta pantalla muestra la foto de perfil de manera circular, nombre, descripción y correo.
+
+### Pantalla Idioma polaco
+![Profile](imagenes/idioma.PNG "Idioma")
+Traducido al idioma polaco
+
+### Pantalla Modo Oscuro
+![Profile](imagenes/noche.PNG "Idioma")
+Pantalla en modo oscuro
+
+
+
+
 
 
