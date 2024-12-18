@@ -62,10 +62,12 @@ Esta pantalla muestra la foto de perfil de manera circular, nombre, descripción
 
 ### Pantalla Idioma polaco
 ![Profile](imagenes/idioma.PNG "Idioma")
+
 Traducido al idioma polaco
 
 ### Pantalla Modo Oscuro
 ![Profile](imagenes/noche.PNG "Idioma")
+
 Pantalla en modo oscuro
 
 
