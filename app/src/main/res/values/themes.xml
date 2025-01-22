@@ -12,4 +12,13 @@
 
     <style name="Theme.NiceStart" parent="Base.Theme.NiceStart"></style>
 
+    <style name="Theme.NiceStart.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NiceStart.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NiceStart.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
