@@ -9,6 +9,8 @@ import com.agomez.nicestart.ui.main.SectionsPagerAdapter;
 
 public class MainBn extends AppCompatActivity {
 
+    //MainBn
+
     private MenuItem prevMenuItem;
     private SectionsPagerAdapter sectionsPagerAdapter;
 
