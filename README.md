@@ -75,10 +75,10 @@ Pantalla en modo oscuro
 ### Pantalla del MainBn
 ![Profile](imagenes/Pagina1.png "Pagina 1")
 
-Pantalla Pagina 1
+Pantalla  Pagina 1
 
 ### Pantalla del MainBn
-![Profile](imagenes/Pagina2.PNG "Pagina 2")
+![Profile](imagenes/Pagina2.PNG "Pagina 2")  
 
 Pantalla Pagina 2
 
