@@ -72,7 +72,25 @@ Traducido al idioma polaco
 Pantalla en modo oscuro
 
 
+### Pantalla del MainBn
+![Profile](imagenes/Pagina1.png "Pagina 1")
 
+Pantalla Pagina 1
+
+### Pantalla del MainBn
+![Profile](imagenes/Pagina2.PNG "Pagina 2")
+
+Pantalla Pagina 2
+
+### Pantalla del MainBn
+![Profile](imagenes/Pagina3.png "Pagina 3")
+
+Pantalla Pagina 3
+
+### Pantalla del MainBn
+![Profile](imagenes/Pagina4.PNG "Pagina 4")
+
+Pantalla Pagina 4
 
 
 
