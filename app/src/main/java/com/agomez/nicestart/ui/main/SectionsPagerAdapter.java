@@ -1,37 +1,31 @@
 package com.agomez.nicestart.ui.main;
 
 import android.content.Context;
-
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-
-import com.agomez.nicestart .fragments.Page1;
-import com.agomez.nicestart .fragments.Page2;
-import com.agomez.nicestart .fragments.Page3;
-import com.agomez.nicestart .fragments.Page4;
-
+import androidx.lifecycle.ViewModelProvider;
+import com.agomez.nicestart.fragments.Page1;
+import com.agomez.nicestart.fragments.Page2;
+import com.agomez.nicestart.fragments.Page3;
+import com.agomez.nicestart.fragments.Page4;
 
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-    //    @StringRes
-//    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2, R.string.tab_text_1, R.string.tab_text_2};
     private final Context mContext;
+    private final PageViewModel mViewModel;
 
-    public SectionsPagerAdapter(Context context, FragmentManager fm) {
+    // Constructor modificado para aceptar el ViewModel
+    public SectionsPagerAdapter(Context context, FragmentManager fm, PageViewModel viewModel) {
         super(fm);
         mContext = context;
+        mViewModel = viewModel; // Aquí se inicializa correctamente el ViewModel
     }
 
     @Override
     public Fragment getItem(int position) {
-        // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment (defined as a static inner class below).
-
-//        return PlaceholderFragment.newInstance(position + 1);
-
-        //sustituimos el fragmento único por nuestros cuatro fragmentos, así, el método getItem devuelve el fragmento
-        // que corresponde a la posición que se le pasa a la clase Fragment como argumento
+        // Sincroniza la selección de fragmento con el ViewModel
+        mViewModel.setIndex(position);
 
         switch (position) {
             case 0:
@@ -44,23 +38,11 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 return new Page4();
             default:
                 return null;
-
-//                return int 0;
-//                return new PlaceholderFragment();
-
         }
-
     }
-
-//    @Nullable
-//    @Override
-//    public CharSequence getPageTitle(int position) {
-//        return mContext.getResources().getString(TAB_TITLES[position]);
-//    }
 
     @Override
     public int getCount() {
-        // Show 2 total pages.
         return 4;
     }
 }

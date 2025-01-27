@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/likes"
+        android:id="@+id/page1"
         android:title="Likes"
         android:icon="@drawable/ic_heart"
         android:contentDescription="none"
@@ -11,7 +11,7 @@
         />
 
     <item
-        android:id="@+id/add"
+        android:id="@+id/page2"
         android:title="Add"
         android:icon="@drawable/ic_add"
         android:contentDescription="none"
@@ -20,7 +20,7 @@
     </item>
 
     <item
-        android:id="@+id/browse"
+        android:id="@+id/page3"
         android:title="Browse"
         android:icon="@drawable/ic_planet"
         android:contentDescription="none"
@@ -28,14 +28,12 @@
         />
 
     <item
-        android:id="@+id/personal"
+        android:id="@+id/page4"
         android:title="Personal"
         android:icon="@drawable/ic_face"
         android:contentDescription="none"
         app:showAsAction="always"
         >
     </item>
-
-
 
 </menu>
