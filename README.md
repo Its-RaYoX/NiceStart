@@ -69,26 +69,27 @@ Traducido al idioma polaco
 ### Pantalla Modo Oscuro
 ![Profile](imagenes/noche.PNG "Idioma")
 
-Pantalla en modo oscuro
+Pantalla en modo oscuro!
+
 
 
 ### Pantalla del MainBn
-![Profile](imagenes/Pagina1.png "Pagina 1")
+![Pagina1](https://github.com/user-attachments/assets/e1697ff1-ea75-455c-83ca-4ee08978e5ef)
 
 Pantalla  Pagina 1
 
 ### Pantalla del MainBn
-![Profile](imagenes/Pagina2.PNG "Pagina 2")  
+![Pagina2](https://github.com/user-attachments/assets/abcf77e3-798d-4dda-b0dc-d6bfdcb3db4e)
 
 Pantalla Pagina 2
 
 ### Pantalla del MainBn
-![Profile](imagenes/Pagina3.png "Pagina 3")
+![Pagina3](https://github.com/user-attachments/assets/05550ec0-2837-4749-adc7-1c9f1db1d02f)
 
 Pantalla Pagina 3
 
 ### Pantalla del MainBn
-![Profile](imagenes/Pagina4.PNG "Pagina 4")
+![Pagina4](https://github.com/user-attachments/assets/19749ac3-93fa-4ab4-97dc-7827fce63ae9)
 
 Pantalla Pagina 4
 
