@@ -108,11 +108,11 @@ public class Main extends AppCompatActivity {
             startActivity(intent);
             return true;
         } else if (itemId == R.id.item3) {
-            showSnackBarWithAction(layout, "Copiado", "UNDO");
-            return true;
+            Intent intent = new Intent(this,MainBab.class);
+            startActivity(intent);
         } else if (itemId == R.id.item4) {
-            showSnackBarWithAction(layout, "Ajustes", "UNDO");
-            return true;
+            Intent intent = new Intent(this,MainBn.class);
+            startActivity(intent);
         } else if (itemId == R.id.itemS) {
             showAlertDialogButtonClicked();
             return true;
